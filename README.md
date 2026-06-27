@@ -1,5 +1,7 @@
 # PRD Generator
 
+🔗 **[Live Demo](https://prd-generator-ynbpu6jeik2dq62ndmwsif.streamlit.app/)** — try it directly in your browser, no setup required.
+
 An AI-powered tool that turns a rough product idea into a complete,
 structured Product Requirements Document (PRD) — the kind real product
 managers and developers use to plan and build software.
