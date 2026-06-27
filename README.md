@@ -11,21 +11,6 @@ timeline, and risks — viewable on screen and downloadable as a clean PDF.
 
 ---
 
-## Screenshots
-
-| Form | Generated PRD |
-|---|---|
-| ![Product details form](screenshots/form.png) | ![Generated PRD view](screenshots/generated-prd.png) |
-
-| PDF Export |
-|---|
-| ![PDF output](screenshots/pdf-output.png) |
-
-> Replace the images above with your own screenshots, saved inside a
-> `screenshots/` folder at the project root (same level as `app.py`).
-
----
-
 ## Tech Stack
 
 - **Frontend:** Streamlit
@@ -135,7 +120,19 @@ The app will open automatically in your browser, usually at
 
 ---
 
-## 3. Deploying to Streamlit Cloud
+## 3. Screenshots
+
+| Form | Generated PRD |
+|---|---|
+| ![Product details form](screenshots/form.png) | ![Generated PRD view](screenshots/generated-prd.png) |
+
+| PDF Export |
+|---|
+| ![PDF output](screenshots/pdf-output.png) |
+
+---
+
+## 4. Deploying to Streamlit Cloud
 
 1. Push this project to a GitHub repository (make sure `.env` is **not**
    included — `.gitignore` already handles this for you).
@@ -153,7 +150,7 @@ The app will open automatically in your browser, usually at
 
 ---
 
-## 4. Notes on Design Decisions
+## 5. Notes on Design Decisions
 
 - **Why `google-genai` and not `google-generativeai`?** The latter is the
   older, now-deprecated SDK. This project uses the current official SDK.
@@ -170,7 +167,7 @@ The app will open automatically in your browser, usually at
 
 ---
 
-## 5. Troubleshooting
+## 6. Troubleshooting
 
 | Problem | Likely Cause | Fix |
 |---|---|---|
@@ -184,7 +181,7 @@ The app will open automatically in your browser, usually at
 
 ---
 
-## 6. License / Usage
+## 7. License / Usage
 
 This project is licensed under the **MIT License** — see the [LICENSE](LICENSE)
 file for full details. In short: you're free to use, copy, modify, and
