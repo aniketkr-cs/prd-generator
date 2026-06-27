@@ -1,0 +1,21 @@
+# Environment variables (contains your real API key - never commit this)
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
+
+# Generated PDFs (if saved locally during testing)
+*.pdf
